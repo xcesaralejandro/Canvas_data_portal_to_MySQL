@@ -2056,7 +2056,7 @@ CREATE TABLE IF NOT EXISTS requests (
 PRIMARY KEY (pkey),
 INDEX user_id_request_index (user_id),
 INDEX course_id_request_index (course_id),
-INDEX course_id_request_index (timestamp)
+INDEX request_timestamp_index (timestamp)
 );
 CREATE TABLE IF NOT EXISTS external_tool_activation_dim (
   `id` BIGINT,
