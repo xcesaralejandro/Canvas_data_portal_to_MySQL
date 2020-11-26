@@ -1,4 +1,4 @@
-# Canvas Data Sync with MySQL
+# Canvas Data Portal to MySQL
 Este proyecto es una pequeña automatización para canvas-data-cli, permite sincronizar los datos, extraer los ficheros comprimidos y cargarlos en mysql con una sola linea de comandos.
 Proximamente se añadirán transacciones de base de datos :)
 
